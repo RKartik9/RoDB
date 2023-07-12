@@ -61,19 +61,16 @@ Copy code
 REACT_APP_MOVIEDB_API_KEY=your_api_key
 Usage
 Start the development server:
-
-bash
-Copy code
 npm start
 Open your web browser and visit http://localhost:3000 to access RoDB.
 
-Contributing
+## Contributing
 Contributions are always welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request. Make sure to follow the existing code style and guidelines.
 
-License
+## License
 This project is licensed under the MIT License.
 
-Acknowledgements
+## Acknowledgements
 This project uses the MovieDB API to fetch movie data.
 RoDB was built with React and Tailwind CSS.
 Special thanks to the developers and contributors of React, Tailwind CSS, and other open-source libraries used in this project.
