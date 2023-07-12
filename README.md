@@ -45,19 +45,10 @@ RoDB is an IMDB clone created using React and Tailwind CSS. It utilizes the Movi
    ```bash
    git clone https://github.com/your-username/rodb.git
 Navigate to the project directory:
-
-bash
-Copy code
 cd rodb
 Install the dependencies:
-
-bash
-Copy code
 npm install
 Create a .env file in the root directory and add your MovieDB API key:
-
-plaintext
-Copy code
 REACT_APP_MOVIEDB_API_KEY=your_api_key
 Usage
 Start the development server:
