@@ -35,7 +35,7 @@ markdown
 Copy code
 # RoDB - IMDB Clone
 
-![RoDB Logo](/path/to/logo.png)
+
 
 RoDB is an IMDB clone created using React and Tailwind CSS. It utilizes the MovieDB API to fetch movie data and provide users with a seamless movie browsing experience.
 
