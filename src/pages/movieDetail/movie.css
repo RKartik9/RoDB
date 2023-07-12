@@ -1,0 +1,167 @@
+.movie {
+  /* padding: auto; */
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie__backdrop {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: 0 35%;
+}
+
+.movie__detail {
+  /* align-items: center; */
+  /* margin: 3em; */
+}
+
+.movie__poster {
+  width: 100%;
+  height: auto;
+  max-height: 24rem;
+  min-height: 8rem;
+  min-width: 6rem;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.86) 0px 22px 40px 6px;
+}
+
+.movie__detailRight {
+  color: white;
+  /* display: flex;
+  flex-direction: column; */
+  /* height: 450px; */
+}
+
+.movie__detailRightTop > div {
+  text-shadow: 0px 0px 5px #000000;
+  margin-bottom: 0.5rem;
+}
+
+/* .movie__voteCount {
+  margin-left: 1rem;
+} */
+
+.movie__genres {
+  margin: 1.35rem 0;
+}
+
+.movie__genre {
+  padding: 0.6rem;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-right: 0.5rem;
+}
+
+.movie__detailRightBottom {
+  /* margin: 2rem 0; */
+  flex: 0.8;
+}
+
+.synopsisText > div:last-of-type {
+  /* margin-left: auto; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.movie__links {
+  position: relative;
+  bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.movie__heading {
+  font-size: 2.2rem;
+}
+
+.movie__Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem 2rem;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 150px;
+  color: black;
+  font-weight: bold;
+}
+
+.movie__homeButton {
+  background-color: rgb(255, 0, 0);
+}
+
+.movie__imdbButton {
+  background-color: #f3ce13;
+}
+
+.newTab {
+  margin-left: 1.4rem;
+}
+
+.movie__production {
+  /* width: 100%; */
+}
+
+/* .movie__productionComapany {
+  width: 200px;
+  margin: 2rem;
+} */
+
+/* .productionCompanyImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
+@media screen and (max-width: 380px) {
+  .movie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    /* max-width: 2em; */
+  }
+  .movie__detail {
+  }
+
+  .movie__backdrop {
+    display: flex;
+    min-width: 23rem;
+    height: 13rem;
+  }
+  .movie__poster {
+    padding: 1em;
+  }
+  .movie__name {
+    font-size: 1.2em;
+  }
+  .movie__tagline {
+    font-size: 0.8em;
+  }
+  .movie__rating {
+    font-size: 0.8em;
+  }
+  .movie__voteCount {
+    font-size: 0.8em;
+  }
+  .movie__runtime {
+    font-size: 0.8em;
+  }
+  .movie__releaseDate {
+    font-size: 0.8em;
+  }
+  .synopsisText {
+    font-size: 2em;
+  }
+  .movie__genre {
+    padding: 0.5em;
+  }
+  .movie__heading {
+    font-size: 1.2rem;
+  }
+}
