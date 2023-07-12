@@ -58,9 +58,6 @@ Open your web browser and visit http://localhost:3000 to access RoDB.
 ## Contributing
 Contributions are always welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request. Make sure to follow the existing code style and guidelines.
 
-## License
-This project is licensed under the MIT License.
-
 ## Acknowledgements
 This project uses the MovieDB API to fetch movie data.
 RoDB was built with React and Tailwind CSS.
