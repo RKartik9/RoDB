@@ -3,14 +3,7 @@
 
 RoDB is an IMDB clone created using React and Tailwind CSS. It utilizes the MovieDB API to fetch movie data and provide users with a seamless movie browsing experience.
 
-## Features
-
-- Search for movies by title, genres, or keywords.
-- View detailed information about movies, including ratings, release date, cast, and crew.
-- Browse popular movies and upcoming releases.
-- Create a watchlist and mark movies as favorites.
-- Explore movie recommendations based on your preferences.
-- Sort and filter movies based on various criteria.
+## Still in it's Beta Phase :)
 
 ## Installation
 
@@ -41,12 +34,9 @@ RoDB is an IMDB clone created using React and Tailwind CSS. It utilizes the Movi
 
 ## Features
 
-- Search for movies by title, genres, or keywords.
 - View detailed information about movies, including ratings, release date, cast, and crew.
 - Browse popular movies and upcoming releases.
-- Create a watchlist and mark movies as favorites.
-- Explore movie recommendations based on your preferences.
-- Sort and filter movies based on various criteria.
+
 
 ## Installation
 
