@@ -16,7 +16,7 @@ RoDB is an IMDB clone created using React and Tailwind CSS. It utilizes the Movi
 3. Install the dependencies:
     npm install
 
-##Usage
+## Usage
 1. Start the development server:
     npm start
 2. Open your web browser and visit http://localhost:3000 to access RoDB.
